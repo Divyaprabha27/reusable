@@ -1,0 +1,47 @@
+.signup {
+    background: url(../../assets/banner.jpg);
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.signup:before {
+    position: absolute;
+    content: "";
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.sign-cnt {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.sign-cnt h1 {
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+.sign-cnt form input {
+    width:50%;
+    height: 45px;
+    margin-right: 15px;
+}
+.sign-cnt form button {
+    height: 45px;
+    border-radius: 0;
+    position: relative;
+    top: -4px;
+}
+@media screen and (max-width: 1042px) {
+    .sign-cnt {
+        left: 20%;
+    }
+}
+@media screen and (max-width: 887px) {
+    .sign-cnt {
+        left: 10%;
+    }
+}

@@ -1,0 +1,50 @@
+.banner {
+    background: url(../../assets/banner.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner:before {
+    position: absolute;
+    content: "";
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.bnr-cnt {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.bnr-cnt h1 {
+    color: #ffffff;
+    font-size: 48px;
+}
+.bnr-cnt form {
+    padding-top: 25px;
+}
+.bnr-cnt form input {
+    width:50%;
+    height: 45px;
+    margin-right: 15px;
+}
+.bnr-cnt form button {
+    height: 45px;
+    border-radius: 0;
+    position: relative;
+    top: -4px;
+}
+@media screen and (max-width: 1042px) {
+    .bnr-cnt {
+        left: 5%;
+    }
+}
+@media screen and (max-width: 887px) {
+    .bnr-cnt {
+        left: 0;
+    }
+}

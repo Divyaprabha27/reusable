@@ -1,0 +1,19 @@
+.home-container {
+    background: #F8F9FA;
+    padding: 30px;
+}
+.course-container {
+    display: flex;
+    padding: 45px;
+  }
+  .product-container {
+    padding: 0 20px;
+  }
+  .product-container h3 {
+    padding: 20px 0;
+  }
+  @media screen and (max-width: 768px) {
+    .course-container {
+      display: block;
+    }
+  }

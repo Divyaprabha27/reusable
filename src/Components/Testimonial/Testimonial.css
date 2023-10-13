@@ -1,0 +1,22 @@
+.testimonial-container {
+    clear: left;
+    padding: 8% 5%;
+    background: #F8F9FA;
+    display: flex;
+}
+.testimonial-container img {
+    width: 40%;
+    border-radius: 50%;
+}
+.testimonial-container h3 {
+    padding: 10px 0;
+}
+.testi-container:nth-child(2) img {
+    width: 35%;
+}
+
+@media screen and (max-width: 768px) {
+    .testimonial-container {
+      display: block;
+    }
+  }
